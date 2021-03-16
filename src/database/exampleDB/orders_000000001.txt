@@ -1,0 +1,108 @@
+const order01 = {
+    "_id": "000000001_2021_00001",
+    "type": "order",
+    "ownerGroupID": "000000001",
+    "ownerGroupName": "Temp Group",
+    "ownerGroupHandle": "tempOwnerGrpHandle",
+    "ownerGroupAddress": {
+      "address": "Temp Company Address Line1,\nTemp Company Address Line2",
+      "city": "Temp City",
+      "pincode": "111111"
+    },
+    "ownerGroupEmail": "krishna@tezi.app",
+    "ownerGroupPhoneNumber": "1111122222",
+    "orderNumber": "00001",
+    "orderDate": "2021-03-09T07:43:53.693Z",
+    "teamMemberID": "000000001_T_0001",
+    "teamMemberHandle": "tempMem01Handle",
+    "SellerDetails": {
+      "sellerGroupID": "000000001_G_BaldwaGroup_00002",
+      "sellerGroupName": "Baldwa Group",
+      "sellerGroupHandle": "BaldwaGroup",
+      "sellerCompanyID": "000000001_C_BaldwaSynthetics_00002_001",
+      "sellerCompanyName": "Baldwa Synthetics",
+      "sellerCompanyHandle": "BaldwaSynthetics",
+      "sellerGSTN": "27AADHB4236Q1Z1",
+      "sellerSubAgentID": "000000001_G_IchalAgentGroup_00004",
+      "sellerSubAgentHandle": "IchalAgentGroup",
+      "sellerSubAgentName": "Ichal Agent Group"
+    },
+    "buyerDetails": {
+      "buyerGroupID": "000000001_G_NirrvanaGroup_00003",
+      "buyerGroupName": "Nirrvana Group",
+      "buyerGroupHandle": "NirrvanaGroup",
+      "buyerCompanyID": "000000001_C_NirrvanaTexMills_00003_001",
+      "buyerCompanyName": "Nirrvana Tex Mills",
+      "buyerCompanyHandle": "NirrvanaTexMills",
+      "buyerGSTN": "24ACYPG4898C1Z5",
+      "buyerSubAgentID"    : "000000001_G_ViramGroup_000000001",
+      "buyerSubAgentHandle": "ViramGroup",
+      "buyerSubAgentName": "Viram Soni Group"
+    },
+    "buyerVersion": {
+      "numberOfItems": 1,
+      "orderDetails": {
+        "1": {
+          "qualityName": "30 30 66\" dobby as per routine",
+          "sortNumber": "3030 Special Dobby",
+          "orderQuantity": 12000,
+          "UOM": "MTR",
+          "rate": {
+            "currency": "INR",
+            "price": 54,
+            "UOM": "MTR",
+            "gst": "+ GST"
+          }
+        }
+      },
+      "paymentTerms": {
+        "termsUnit": "Days",
+        "termsQty": 100
+      },
+      "packingMethod": "Than",
+      "delivery": {
+        "TimeUnit": "Days",
+        "TimeQty": 40
+      },
+      "transportName": "",
+      "deliveryAt": "",
+      "notes": "",
+      "tnc": ""
+    },
+    "sellerVersion": {
+      "numberOfItems": 1,
+      "orderDetails": {
+        "1": {
+          "qualityName": "30 30 66\" dobby as per routine",
+          "sortNumber": "3030 Special Dobby",
+          "orderQuantity": 12000,
+          "UOM": "MTR",
+          "rate": {
+            "currency": "INR",
+            "price": 54,
+            "UOM": "MTR",
+            "gst": "+ GST"
+          }
+        }
+      },
+      "paymentTerms": {
+        "termsUnit": "Days",
+        "termsQty": 100
+      },
+      "packingMethod": "Than",
+      "delivery": {
+        "TimeUnit": "Days",
+        "TimeQty": 40
+      },
+      "transportName": "",
+      "deliveryAt": "",
+      "notes": "",
+      "tnc": ""
+    },
+    "status"  : "Pending",
+    "createdBy": {
+      "memberID": "000000001_OT_tempMem01Handle",
+      "memberHandle": "tempMem01Handle"
+    },
+    "createdOn": "2021-03-09T07:43:53.693Z"
+  }
